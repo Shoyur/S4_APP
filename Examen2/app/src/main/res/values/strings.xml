@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Examen2</string>
+    <string name="tvTitre">Examen2</string>
+    <string name="tvNom">Nom:</string>
+    <string name="tvPrenom">Prénom:</string>
+    <string name="cbT1">Journalier</string>
+    <string name="cbT2">Temps partiel</string>
+    <string name="cbT3">Temps plein</string>
+    <string name="cbT4">Occasionnel</string>
+    <string-array name="fonctions">
+        <item>Enseignement</item>
+        <item>Orthopédagogie</item>
+        <item>Suppléance</item>
+        <item>Direction</item>
+        <item>Secrétariat</item>
+        <item>Technicien</item>
+        <item>Entretien</item>
+        <item>Spécialiste</item>
+        <item>Conseiller</item>
+    </string-array>
+</resources>

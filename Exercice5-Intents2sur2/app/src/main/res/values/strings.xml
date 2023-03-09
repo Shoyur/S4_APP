@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exerc4-Intent1sur2</string>
+    <string name="tvTitre">Test Intent (Exercice 4)</string>
+    <string name="tvNom">Nom:</string>
+    <string name="tvPrenom">Prénom:</string>
+    <string name="tvAge">Âge:</string>
+</resources>

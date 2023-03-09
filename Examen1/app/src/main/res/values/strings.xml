@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Examen 1</string>
+    <string name="tvTitre">Calcul de contravention</string>
+    <string name="tvNom">Vitesse Max:</string>
+    <string name="tvPrenom">Vitesse Lue:</string>
+
+</resources>
