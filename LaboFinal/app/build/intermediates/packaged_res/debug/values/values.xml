@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#6025AAFF</color>
+    <color name="black">#FF000000</color>
+    <color name="fonce">#222222FF</color>
+    <color name="pale">#333333FF</color>
+    <color name="purple_200">#222222FF</color>
+    <color name="purple_500">#222222FF</color>
+    <color name="purple_700">#222222FF</color>
+    <color name="teal_200">#222222FF</color>
+    <color name="teal_700">#222222FF</color>
+    <color name="texte_sur_bg">#B57AFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">ExercApp</string>
+    <style name="Theme.LaboFinal" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/fonce</item>
+        <item name="colorPrimaryVariant">@color/fonce</item>
+        <item name="colorOnPrimary">@color/fonce</item>
+        
+        <item name="colorSecondary">@color/fonce</item>
+        <item name="colorSecondaryVariant">@color/fonce</item>
+        <item name="colorOnSecondary">@color/fonce</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_baseline_add_circle_24.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\baseline_add_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_e6.jpg.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\e6.jpg"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_baseline_edit_24.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\baseline_edit_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_e8.jpg.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\e8.jpg"
+    },
+    {
+        "merged": "com.example.labofinal.app-merged_res-29:/layout_item_layout.xml.flat",
+        "source": "com.example.labofinal.app-main-31:/layout/item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\layout_item_layout.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\layout\\item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_e3.jpg.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\e3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_baseline_arrow_back_ios_24.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\menu_menu_autres.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\menu\\menu_autres.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_baseline_phone_24.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\baseline_phone_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_e5.jpg.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\e5.jpg"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_e7.jpg.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\e7.jpg"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\menu_menu_video.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\menu\\menu_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_e9.jpg.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\e9.jpg"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\menu_menu_accueil.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\menu\\menu_accueil.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_e2.jpg.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\e2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\baseline_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\layout_activity_second.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\layout\\activity_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_e4.jpg.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\e4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\drawable_e1.jpg.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\drawable\\e1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.labofinal.app-merged_res-29:/layout_activity_second.xml.flat",
+        "source": "com.example.labofinal.app-main-31:/layout/activity_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\layout_activity_third.xml.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\layout\\activity_third.xml"
+    },
+    {
+        "merged": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MikeMore\\.gradle\\daemon\\7.5\\com.example.labofinal.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+    }
+]

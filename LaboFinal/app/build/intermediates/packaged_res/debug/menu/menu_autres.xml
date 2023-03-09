@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/retour"
+        android:title="Revenir"
+        android:icon="@drawable/baseline_arrow_back_ios_24"
+        app:showAsAction="always"
+        android:onClick="retour"
+        />
+    <item
+        android:id="@+id/ajouter"
+        android:title="Ajouter"
+        android:icon="@drawable/baseline_add_circle_24"
+        app:showAsAction="always"
+        android:onClick="ajouter"
+        />
+
+</menu>

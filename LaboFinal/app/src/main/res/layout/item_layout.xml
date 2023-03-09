@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:background="@color/fonce"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="165dp"
+        android:layout_height="110dp"
+        android:src="@drawable/e1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Exercices abdominaux"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="6"
+        android:text="Quel sont les meilleurs exercices pour les abdominaux ? Comment cibler le haut et le bas ? Quel programme faire pour avoir des abdos musclés et un bon gainage ? Dans cette section, vous verrez comment muscler les abdominaux efficacement…"
+        android:textSize="11dp"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:includeFontPadding="false"
+        android:textColor="@color/black" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
