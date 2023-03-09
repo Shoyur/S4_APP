@@ -4,47 +4,75 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Parcelable;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 
 public class Activity2 extends AppCompatActivity {
 
-    TextView tv1;
-    TextView tv2;
-    TextView tv3;
-    Button btRetour;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
 
-        tv1 = findViewById(R.id.tv1);
-        tv2 = findViewById(R.id.tv2);
-        tv3 = findViewById(R.id.tv3);
-        btRetour = findViewById(R.id.btRetour);
-
-//        Bundle donnees = getIntent().getExtras();
-//        String textes[] = donnees.getStringArray("donnees");
-//
-//        tv1.setText("Nom: " + textes[0]);
-//        tv2.setText("Prénom: " + textes[1]);
-//        tv3.setText("Sexe: " + textes[2]);
-
         Intent intent = getIntent();
-        ArrayList<Usager> usagers = intent.getParcelableArrayListExtra("usagers");
-        tv3.setText("TEST: " + usagers.get(0).getName());
+        ArrayList<Film> tabFilms = intent.getParcelableArrayListExtra("films");
 
-        btRetour.setOnClickListener(new View.OnClickListener() {
+        ListView listView = findViewById(R.id.liste1); //54
+
+        ArrayAdapter<Film> filmsAdapter = new ArrayAdapter<Film>(this, android.R.layout.simple_list_item_1, tabFilms); //55
+
+        listView.setAdapter(filmsAdapter); // 56
+
+        ArrayList<String> liste = new ArrayList<>(); // 59
+
+        listView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, liste)); // 60
+
+
+
+        ArrayAdapter<Film> filmTousAdapter = new ArrayAdapter<Film>(this, R.layout.liste_item, R.id.text_numFilm, tabFilms) {
             @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View rowView = super.getView(position, convertView, parent);
+                Film film = getItem(position);
 
+                TextView numFilm = rowView.findViewById(R.id.text_numFilm);
+                numFilm.setText(String.valueOf(film.getNumFilm()));
+
+                TextView titre = rowView.findViewById(R.id.text_titre);
+                titre.setText(film.getTitre());
+
+                TextView classement = rowView.findViewById(R.id.text_classement);
+                classement.setText(String.valueOf(film.getClassement()));
+
+                TextView categorie = rowView.findViewById(R.id.text_categorie);
+                categorie.setText(film.getCategorie());
+
+
+                return rowView;
+            }
+        };
+        listView.setAdapter(filmTousAdapter);
+
+
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu2, menu);
+        return true;
+    }
+    public void retour(MenuItem menu) {
+        finish();
+    }
+    public void quitter(MenuItem menu) {
+        this.finishAffinity();
     }
 }

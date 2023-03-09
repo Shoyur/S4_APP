@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/charger"
+        android:title="Charger"
+        android:icon="@drawable/baseline_download_for_offline_24"
+        app:showAsAction="always"
+        android:onClick="chargerFilms"
+        />
+    <item
+        android:id="@+id/ajouter"
+        android:title="Ajouter"
+        android:icon="@drawable/baseline_add_circle_24"
+        app:showAsAction="always"
+        android:onClick="ajouter"
+        />
+    <item
+        android:id="@+id/lister"
+        android:title="Lister"
+        android:icon="@drawable/baseline_format_list_bulleted_24"
+        app:showAsAction="always"
+        android:onClick="lister"
+        />
+    <item
+        android:id="@+id/rechercher"
+        android:title="Rechercher"
+        android:icon="@drawable/baseline_manage_search_24"
+        app:showAsAction="always"
+        android:onClick="rechercher"
+        />
+    <item
+        android:id="@+id/quitter"
+        android:title="Quitter"
+        android:icon="@drawable/baseline_exit_to_app_24"
+        app:showAsAction="always"
+        android:onClick="quitter"
+        />
+
+</menu>

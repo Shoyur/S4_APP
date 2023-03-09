@@ -11,7 +11,7 @@
         android:id="@+id/tvTitre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tvTitre"
+        android:text="Gestion de films (Examen 2)"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,113 +20,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias=".05" />
 
-    <TextView
-        android:id="@+id/tvNom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/tvNom"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitre" />
 
-    <TextView
-        android:id="@+id/tvPrenom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/tvPrenom"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@+id/tvNom"
-        app:layout_constraintTop_toBottomOf="@+id/tvNom" />
-
-    <TextView
-        android:id="@+id/tvSexe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Sexe:"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@+id/tvPrenom"
-        app:layout_constraintTop_toBottomOf="@+id/tvPrenom" />
-
-    <EditText
-        android:id="@+id/etNom"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:background="#FFFFFF"
-        android:ems="10"
-        android:inputType="textVisiblePassword"
-        android:singleLine="true"
-        android:textSize="16sp"
-        android:visibility="visible"
-        app:layout_constraintStart_toStartOf="@+id/tvNom"
-        app:layout_constraintTop_toTopOf="@+id/tvNom" />
-
-    <EditText
-        android:id="@+id/etPrenom"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:background="#FFFFFF"
-        android:ems="10"
-        android:inputType="textVisiblePassword"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@+id/tvPrenom"
-        app:layout_constraintTop_toTopOf="@+id/tvPrenom" />
-
-    <RadioGroup
-        android:id="@+id/rgSexe"
-        android:layout_width="196dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="100dp"
-        android:baselineAligned="true"
-        android:orientation="horizontal"
-        app:layout_constraintStart_toStartOf="@+id/tvSexe"
-        app:layout_constraintTop_toTopOf="@+id/tvSexe">
-
-        <RadioButton
-            android:id="@+id/rbM"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="M"
-            android:textSize="16sp" />
-
-        <RadioButton
-            android:id="@+id/rbF"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10sp"
-            android:text="F"
-            android:textSize="16sp" />
-
-        <RadioButton
-            android:id="@+id/rbA"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10sp"
-            android:text="A"
-            android:textSize="16sp" />
-    </RadioGroup>
-
-    <Button
-        android:id="@+id/btEnvoyer"
-        style="@android:style/Widget.DeviceDefault.Button.Borderless.Small"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageFilm"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:layout_marginTop="40dp"
-        android:outlineAmbientShadowColor="#FFEB3B"
-        android:outlineSpotShadowColor="#F44336"
-        android:shadowColor="#3F51B5"
-        android:text="Envoyer"
-        android:textColorHighlight="#9C27B0"
-        android:textColorHint="#FFC107"
-        app:layout_constraintStart_toStartOf="@+id/tvSexe"
-        app:layout_constraintTop_toBottomOf="@+id/tvSexe"
-        app:rippleColor="#8BC34A"
-        app:strokeColor="#FF5722" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitre"
+        app:srcCompat="@drawable/filmicon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
