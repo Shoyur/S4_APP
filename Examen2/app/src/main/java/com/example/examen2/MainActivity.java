@@ -7,8 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,22 +31,23 @@ public class MainActivity extends AppCompatActivity {
         btEnvoyer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String donnees[] = new String[3];
-                donnees[0] = etNom.getText().toString();
-                donnees[1] = etPrenom.getText().toString();
-                RadioButton rbSel = rgSexe.findViewById(rgSexe.getCheckedRadioButtonId());
-                donnees[2] = rbSel.getText().toString();
-                Intent intentTest = new Intent(MainActivity.this, Activity2.class);
-                intentTest.putExtra("donnees", donnees);
+//                String donnees[] = new String[3];
+//                donnees[0] = etNom.getText().toString();
+//                donnees[1] = etPrenom.getText().toString();
+//                RadioButton rbSel = rgSexe.findViewById(rgSexe.getCheckedRadioButtonId());
+//                donnees[2] = rbSel.getText().toString();
+                Intent intent = new Intent(MainActivity.this, Activity2.class);
+//                intentTest.putExtra("donnees", donnees);
 
 
                 // on peut mettre des objets maintenant
-                User user[] = new User[10];
-                user[0] = new User(1,"velm",25);
-                intentTest.putExtra("user",user);
+                ArrayList<Usager> usagers = new ArrayList<Usager>();
+                usagers.add(new Usager(1,"velm",25));
+                intent.putParcelableArrayListExtra("usagers", usagers);
 
 
-                startActivity(intentTest);
+
+                startActivity(intent);
             }
         });
     }
